@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-boxing;
+}
+
+body {
+  background: #242333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.movie-container {
+  margin: 20px, 0;
+}
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearence: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.seat {
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+}
