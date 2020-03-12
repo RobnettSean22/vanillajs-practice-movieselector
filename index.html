@@ -10,11 +10,11 @@
   <body>
     <div class="movie-container">
       <label>Pick a Movie:</label>
-      <select id = "movie">
-        <option value='10'>Venom ($10)</option>
-        <option value='12'>Joker ($12)</option>
-        <option value='8'>Jungle Book ($8)</option>
-        <option value='9'>Cats ($9)</option>
+      <select id="movie">
+        <option value="10">Venom ($10)</option>
+        <option value="12">Joker ($12)</option>
+        <option value="8">Jungle Book ($8)</option>
+        <option value="9">Cats ($9)</option>
       </select>
     </div>
     <ul class="showcase">
@@ -38,17 +38,7 @@
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
@@ -69,7 +59,17 @@
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
       </div>
@@ -85,15 +85,20 @@
       </div>
       <div class="row">
         <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
       </div>
-      <p class="text">You have selected <span id = "count">0</span> seats for a price of $ <span id = "total"0></span></p>
+    </div>
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of $
+      <span id="total">0</span>
+    </p>
+
     <script src="script.js"></script>
   </body>
 </html>
